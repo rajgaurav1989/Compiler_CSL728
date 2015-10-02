@@ -1,0 +1,12 @@
+git init
+git add <file_name>
+git commit -m "message"
+git push -u origin master
+git push origin master
+git pull origin master
+git reset --hard
+git branch <branch_name>
+git checkout <branch_name>
+git push origin <branch_name>
+git status
+git pull --rebase
