@@ -22,7 +22,7 @@ struct LoopList
 	BasicBlock::iterator first_inst , last_inst ;
 	struct LoopList *next ;
 	struct LoopList *prev ;
-} ;
+};
 
 struct LoopList *loop_list_head = NULL ;
 
